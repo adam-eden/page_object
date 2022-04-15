@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+/__pycache__/
+/.pytest_cache/
+
+# Distribution / packaging
+/.idea/
+
+# dotenv
+.env
+
+# virtualenv
+/venv/
+
+# log files
+.log
+
+# other
+/pages/

@@ -18,6 +18,7 @@ def browser(request):
     if browser_name == "chrome":
         options = Options()
         options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
         print("\nstart chrome browser for test..")
         browser = webdriver.Chrome(options=options)
     elif browser_name == "firefox":

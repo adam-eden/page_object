@@ -7,7 +7,11 @@ from .locators import BasePageLocators
 import math
 
 
-class BasePage():
+class BasePage:
+    def go_to_basket_page(self):
+        link = self.browser.find_element(*BasePageLocators.VIEW_BASKET_BTN)
+        link.click()
+
     def go_to_login_page(self):
         link = self.browser.find_element(*BasePageLocators.LOGIN_LINK)
         link.click()

@@ -8,7 +8,7 @@ class ProductPage(BasePage):
         button.click()
 
     def should_be_message_add_product(self):
-        assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text in \
+        assert self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text == \
                self.browser.find_element(*ProductPageLocators.SUCCESS_MESSAGE).text, \
                "Message about adding product not found"
 

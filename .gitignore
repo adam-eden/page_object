@@ -13,3 +13,6 @@
 
 # log files
 .log
+
+# other
+/info/

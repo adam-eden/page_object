@@ -3,6 +3,10 @@
 Learning the Pytest Framework. 
 Using the Page Object.
 
+## Test bench
+
+[Online store](http://selenium1py.pythonanywhere.com/en-gb/catalogue/)
+
 ## Deploy
 1. Clone project
 ```bash
